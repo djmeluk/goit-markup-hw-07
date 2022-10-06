@@ -1,0 +1,142 @@
+.footer {
+    background-color: var(--secondary-background-color);
+    padding: 60px 0;
+}
+
+.footer-box {
+    display: flex;
+    align-items: baseline;
+}
+
+.footer__logo {
+    color: var(--logo-footer-color);
+    margin: 0;
+    padding: 0;
+}
+
+.address {
+    margin-top: 20px;
+}
+
+.address__item:not(:last-child) {
+    margin-bottom: 9px;
+}
+
+.address__city {
+    color: var(--primary-background-color);
+    font-style: normal;
+    font-size: 14px;
+    line-height: 1.8;
+    letter-spacing: 0.03em;
+    text-decoration: none;
+    transition: var(--time-cubic);
+}
+
+.address__city:hover,
+.address__city:focus {
+    color: var(--accent-color);
+}
+
+.address__link {
+    color: var(--address-link-color);
+    font-style: normal;
+    font-size: 14px;
+    line-height: 1.8;
+    letter-spacing: 0.03em;
+    text-decoration: none;
+    transition: var(--time-cubic);
+}
+
+.address__link:hover,
+.address__link:focus {
+    color: var(--accent-color);
+}
+
+/* Приєднуйтесь */
+.social-box {
+    margin-left: 70px;
+}
+
+.social-box__title {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--primary-background-color);
+    margin-bottom: 20px;
+}
+
+.social-box__social-list {
+    display: flex;
+    gap: 10px;
+}
+
+.social-box__item {
+    width: 44px;
+    height: 44px;
+}
+
+.social-box__link {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+    fill: var(--primary-background-color);
+    transition: var(--time-cubic);
+}
+
+.social-box__link:hover,
+.social-box__link:focus {
+    background-color: var(--accent-color);
+}
+
+/* Розсилка */
+.mailing-form {
+    margin-left: auto;
+}
+
+.form-box {
+    display: flex;
+}
+
+.mailing-form__title {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--primary-background-color);
+    margin-bottom: 20px;
+}
+
+.mailing-form__input {
+    width: 358px;
+    height: 50px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+    border-radius: 4px;
+    background-color: var(--secondary-background-color);
+    padding: 0 0 0 15px;
+    color: var(--primary-background-color);
+}
+
+.mailing-form__input::placeholder {
+    font-size: 16px;
+    line-height: 1.25;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.mailing-form__button-primary {
+    margin-left: 12px;
+    min-width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding: 0;
+}
