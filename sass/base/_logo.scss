@@ -9,6 +9,11 @@
     margin-right: 93px;
     padding: 25px 0 25px;
     transition: var(--time-cubic);
+    
+    &:hover,
+    &:focus {
+    color: var(--accent-color);
+}
 }
 
 .logo__web {
@@ -18,14 +23,12 @@
     font-size: 26px;
     line-height: 1.2;
     letter-spacing: 0.03em;
+
+    &:hover,
+        &:focus {
+            color: var(--accent-color);
+        }
 }
 
-.logo:hover,
-.logo:focus {
-    color: var(--accent-color);
-}
 
-.logo__web:hover,
-.logo__web:focus {
-    color: var(--accent-color);
-}
+
